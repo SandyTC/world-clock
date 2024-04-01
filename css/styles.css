@@ -1,0 +1,79 @@
+header {
+  border-bottom: 1px solid #d3e3fd;
+  padding: 0;
+}
+
+body {
+  background: #d3e3fd;
+  font-family: "Poppins", sans-serif;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  border: none;
+  background: #d3e3fd;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
+}
+
+footer {
+  background: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  border-bottom: 1px dashed lightgray;
+  padding: 15px 0;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.6;
+}
+
+.time {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.time small {
+  font-size: 15px;
+  line-height: 30px;
+  vertical-align: middle;
+}
